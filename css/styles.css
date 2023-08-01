@@ -1,0 +1,24 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&display=swap');
+
+/* Variable CSS */
+:root{
+    --header-height:48px;
+
+    /* Color */
+   /* --color:#285430 ; */
+    --first-color: #285430;
+    --first-color-2nd: #285430 ;
+    --first-color-alt:#5F8D4E ;
+    --first-color-lighter:#A4BE7B ;
+    --title-color:  #285430 ;
+    --text-color-light:#A4BE7B ;
+    --input-color: #092532;
+    --body-color: #E5D9B6 ;
+    --container-color: #E5D9B6 ;
+    
+    --body-font:font-family: 'Lora', serif;
+    --big-font: 32px;
+    
+
+}
