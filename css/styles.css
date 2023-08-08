@@ -243,6 +243,7 @@ img{
 }
 .home-img{
     width: 170px;
+    /* align-self: center; */
 }
 
 .home-data{
@@ -362,7 +363,7 @@ img{
 
   .about-img{
     
-    /* margin: 30px auto; */
+    margin:auto;
     width: 200px;
     border-radius: 8px;
     justify-content: center;
@@ -425,11 +426,12 @@ img{
 }
 
 
-/* .skills section{
+#skills{
     text-align: center;
     justify-content: center;
-    margin-left: auto;
-} */
+    margin-left: 30px;
+    margin-right: 30px;
+}
 
 .skills-close .skills-list{
     height: 0;
