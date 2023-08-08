@@ -7,7 +7,7 @@
 
     /* Color */
    /* --color:#285430 ; */
-    --first-color: orangered;
+    --first-color: #5F8D4E;
     --first-color-2nd: #285430 ;
     --first-color-alt:#5F8D4E ;
     --first-color-lighter:#A4BE7B ;
@@ -103,11 +103,12 @@ img{
     padding: 2rem 0 4rem;
 }
 
-.section_title{
+.section-title{
     font-size: var(--h1);
+    text-align: center;
 }
 
-.section_subtitle{
+.section-subtitle{
     text-align: center;
     display: block;
     font-size: var(--small-font);
@@ -289,4 +290,92 @@ img{
 
 .home-scroll-arrow{
     font-size: 20px;
+}
+
+.button{
+    background: mediumseagreen;
+    background-image: -webkit-linear-gradient(top, mediumseagreen, #1abc9c );
+    background-image: -moz-linear-gradient(top, mediumseagreen, #1abc9c );
+    background-image: -ms-linear-gradient(top, mediumseagreen, #1abc9c );
+    background-image: -o-linear-gradient(top, mediumseagreen, #1abc9c );
+    background-image: linear-gradient(to bottom, mediumseagreen, #1abc9c );
+    /* -webkit-border-radius: 28;
+    -moz-border-radius: 28; */
+    border-radius: 10px;
+    border: 2px solid transparent;
+    font-weight: var(--font-medium);
+    color: #ffff;
+    font-size: 20px;
+    padding: 16px;
+    text-decoration: none;
+    display: inline-block;
+    /* width: fit-content; */
+    
+   
+  }
+  
+  .button:hover {
+    background: darkseagreen;
+    transform: translateY(-0.5rem);
+    background-image: -webkit-linear-gradient(top, darkseagreen, seagreen);
+    background-image: -moz-linear-gradient(top, darkseagreen, seagreen);
+    background-image: -ms-linear-gradient(top, darkseagreen, seagreen);
+    background-image: -o-linear-gradient(top, darkseagreen, seagreen);
+    background-image: linear-gradient(to bottom, darkseagreen, seagreen);
+    text-decoration: none;
+  }
+  
+  .button-icon{
+    font-size: 20px;
+    margin-left: 5px;
+    transition:.3s;
+  }
+  .button-flex{
+    display: inline-flex;
+    align-items: center;
+  }
+
+/* About */
+
+
+
+.about-container{
+    
+    padding-top:56px;
+    /* align-items: center; */
+
+}
+/* .bio{
+    text-align: center;
+} */
+
+  .about-title{
+    font-size: var(--big-font);
+}
+
+.about-subtitle{
+    font-size: var(--h3);
+    color:var(--title-color);
+    font-weight: var(--font-medium);
+    margin-bottom: var(--mb-0-75);
+}
+
+  .about-img{
+    
+    /* margin: 30px auto; */
+    width: 200px;
+    border-radius: 8px;
+    justify-content: center;
+    align-self: center;
+    
+  }
+  .about-desc{
+    text-align: center;
+    margin-bottom: var(--mb-0-25);
+  }
+
+  .about-button
+  {
+    display: flex;
+    justify-content: center;
 }
