@@ -379,3 +379,67 @@ img{
     display: flex;
     justify-content: center;
 }
+
+/* Skills */
+.skills-container{
+    row-gap: 0;
+}
+.skills-header{
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--mb-2-5);
+    cursor: pointer;
+}
+
+.skills-icon,.skills-arrow{
+   font-size: 32px;
+   color: var(--first-color);
+}
+
+.skills-icon{
+    margin-right: var(--mb-0-75);
+}
+
+.skills-title{
+    font-size: var(--h3);
+}
+.skills-arrow{
+ margin-left: auto;
+ transition: .4s;
+}
+
+.skills-list{
+    row-gap: 20px;
+    padding-left: 50px;
+}
+
+.skills-titles{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: var(--mb-0-5);
+}
+
+.skills-name{
+    font-size: var(--normal-font);
+    font-weight: var(--font-medium);
+}
+
+
+/* .skills section{
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+} */
+
+.skills-close .skills-list{
+    height: 0;
+    overflow: hidden;
+}
+
+.skills-open ,.skills-list{
+    height: max-content;
+    margin-bottom: var(--mb-2-5);
+}
+.skills-open .skills-arrow{
+    transform: rotate(-180deg);
+}
