@@ -445,3 +445,67 @@ img{
 .skills-open .skills-arrow{
     transform: rotate(-180deg);
 }
+
+
+/* Education Qualification */
+.qualification-options{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: var(--mb-2);
+
+}
+
+.qualification-button{
+    font-size: var(--h3);
+    font-weight:var(--font-medium);
+    cursor: pointer;
+}
+
+.qualification-icon{
+    font-size:28px ;
+    margin-right:4px ;
+
+}
+
+.qualification-info{
+    display: grid;
+    grid-template-columns:1fr max-content 1fr ; /* middle e thaklo sob likha */
+    column-gap: 20px;     
+}
+
+.qualification-title{
+    font-size: var(--normal-font);
+    font-weight: var(--font-medium);
+}
+
+.qualification-subtitle{
+    display: inline-block;
+    font-size: var(--small-font);
+    font-weight: var(--font-medium);
+    margin-bottom:var(--mb-1);
+}
+
+.qualification-calender{
+    font-size: var(--smaller-font);
+    color: var(--text-color-light);
+}
+
+.qualification-point{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: var(--first-color);
+    border-radius: 50%;
+
+}
+
+.qualification-line{
+    display: block;
+    background-color: var(--first-color);
+    width: 1px;
+    height: 100%;
+    transform: translate(6px,-10px);
+
+}
+
+
