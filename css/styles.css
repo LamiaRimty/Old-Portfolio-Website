@@ -553,3 +553,12 @@ img{
 .portfolio-desc{
     margin-bottom: var(--mb-0-75);
 }
+
+.portfolio-button{
+    width: 150px;
+
+}
+
+.portfolio-button:hover .button-icon{
+ transform: translateX(.25rem);
+}
