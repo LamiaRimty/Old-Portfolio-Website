@@ -78,6 +78,7 @@
 
       <!-- Main -->
     <main class="main">
+        <!-- HOME -->
       <section class="home section" id="home">
         <div class="home-container container grid">
             
@@ -284,39 +285,46 @@
             <span class="section-subtitle">My Personal Journey</span>
 
             <div class="qualification-container container">
-                <div class="qualification-options">
-                    <div class="qualification-button button-flex">
+                <div class="qualification-tabs">
+                    <div class="qualification-button button-flex " data-target="#education">
                         <i class="uil uil-graduation-cap qualification-icon"></i>
                         Education
                     </div>
 
-                    <div class="qualification-button button-flex">
+                    <div class="qualification-button button-flex qualification-active" data-target="#course">
                         <i class="uil uil-file-landscape-alt qualification-icon"></i>
-                        Courses
+                        Course
                     </div>
 
                 </div>
 
                 <div class="qualification-sections">
-                    <div class="qualification-content">
+                    <!-- Education content  -->
+                    <div class="qualification-content " data-content id="education">
                         <!-- Q1 -->
-                        <div class="qualification-info">
-                            <div>
-                                <span class="qualification-point"></span>
-                                <span class="qualification-line"></span>
-                            </div>
-                            <div>
-                                <h3 class="qualification-title">Bachelor of Computer Science & Engineering</h3>
-                                <span class="qualification-subtitle">University of Rajshahi , Bangladesh </span>
+                        <div class="qualification-data">
                             
-                                <div class="qualification-calender">
-                                    <i class="uil uil-calendar-alt"></i>
-                                    2014 ~ 2018
+                                <div>
+                                    <span class="qualification-point"></span>
+                                    <span class="qualification-line"></span>
+                                </div>
+                                <div>
+                                    <h3 class="qualification-title">Bachelor of Computer Science & Engineering</h3>
+                                    <span class="qualification-subtitle">University of Rajshahi , Bangladesh </span>
+                                
+                                    <div class="qualification-calender">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2014 ~ 2018
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        
+
+
                         <!-- Q2 -->
-                        <div class="qualification-info">
+                        <div class="qualification-data">
+                           
+                                
                             <div>
                                 <span class="qualification-point"></span>
                                 <!-- <span class="qualification-line"></span> -->
@@ -324,7 +332,7 @@
     
                             <div>
     
-                                <h3 class="qualification-title">Master’s of Computer Science & Engineering </h3>
+                            <h3 class="qualification-title">Master’s of Computer Science & Engineering </h3>
                                 <span class="qualification-subtitle">University of Rajshahi , Bangladesh </span>
                             
                                 <div class="qualification-calender">
@@ -334,133 +342,210 @@
                             </div>
                         </div>
 
-                        <!-- C1 -->
-                        <div class="qualification-info">
+                    </div>
+                   
+
+
+                    <!-- course content  -->
+                    <div class="qualification-content qualification-active" data-content id="course">
+                                                <!-- C1 -->
+                        <div class="qualification-data">
                             <div>
                                 <span class="qualification-point"></span>
-                                <span class="qualification-line"></span>
-                            </div>
-    
-                            <div>
-    
-                                <h3 class="qualification-title">The Complete 2023 Web Development Bootcamp </h3>
+                                 <span class="qualification-line"></span>
+                             </div>
+                             
+
+                        <div>
+            
+                             <h3 class="qualification-title">The Complete 2023 Web Development Bootcamp </h3>
+                            <span class="qualification-subtitle">Udemy</span>
+                                                    
+                                <div class="qualification-calender">
+                                  <i class="uil uil-calendar-alt"></i>
+                                   2023
+                                </div>
+                        </div>
+
+                        </div>
+                        
+                                                <!-- C2 -->
+                        
+                        <div class="qualification-data">
+                                        
+                          <div>
+                            <span class="qualification-point"></span>
+                            <span class="qualification-line"></span>
+                          </div>
+                            
+                           <div>
+                            
+                             <h3 class="qualification-title">User Experience Design Esentials-Adobe XD UI UX Design</h3>
+                             <span class="qualification-subtitle">Udemy</span>
+                                                    
+                             <div class="qualification-calender">
+                              <i class="uil uil-calendar-alt"></i>
+                              2023
+                             </div>
+
+                           </div>
+
+                        </div>
+                        
+                          <!-- C3 -->
+                        <div class="qualification-data">
+                                <div>
+                                    <span class="qualification-point"></span>
+                                    <span class="qualification-line"></span>
+                                </div>
+                            
+                                    <div>
+                            
+                                          <h3 class="qualification-title">Become a FrontEnd Developer</h3>
+                                          <span class="qualification-subtitle">Educative</span>
+                                                    
+                                        <div class="qualification-calender">
+                                             <i class="uil uil-calendar-alt"></i>
+                                             2022
+                                        </div>
+                                    </div>
+                        </div>
+                        
+                                                <!-- c4 -->
+                        
+                         <div class="qualification-data">
+                                <div>
+                                    <span class="qualification-point"></span>
+                                    <span class="qualification-line"></span>
+                                </div>
+                            
+                                <div>
+                            
+                                        <h3 class="qualification-title"> Intermediate JavaScript : Building  Frontend Components </h3>
+                                        <span class="qualification-subtitle">Educative</span>
+                                                    
+                                    <div class="qualification-calender">
+                                        <i class="uil uil-calendar-alt"></i>
+                                             2022
+                                    </div>
+                                </div>
+                        </div>
+                        
+                                                <!-- C5 -->
+                        
+                        <div class="qualification-data">
+                                <div>
+                                        <span class="qualification-point"></span>
+                                         <span class="qualification-line"></span>
+                                </div>
+                            
+                                 <div>
+                            
+                                        <h3 class="qualification-title">Learn Figma : User Interface Design Esentials - UI/UX Design </h3>
+                                        <span class="qualification-subtitle">Udemy</span>
+                                                    
+                                            <div class="qualification-calender">
+                                             <i class="uil uil-calendar-alt"></i>
+                                            2022
+                                             </div>
+
+                                </div>
+
+                         </div>
+                        
+                        
+                                                <!-- C6 -->
+                        
+                            <div class="qualification-data">
+                                <div>
+                                    <span class="qualification-point"></span>
+                                </div>
+                                
+                                
+                                  
+                             <div>
+                               <h3 class="qualification-title">Design Thinking : the fundamentals </h3>
                                 <span class="qualification-subtitle">Udemy</span>
-                            
+                                                    
                                 <div class="qualification-calender">
-                                    <i class="uil uil-calendar-alt"></i>
-                                    2023
+                                                <i class="uil uil-calendar-alt"></i>
+                                                 2022
                                 </div>
-                            </div>
-                        </div>
+                             </div>
 
-                        <!-- C2 -->
+                            </div>  
 
-                        <div class="qualification-info">
-                            <div>
-                                <span class="qualification-point"></span>
-                                <span class="qualification-line"></span>
-                            </div>
-    
-                            <div>
-    
-                                <h3 class="qualification-title">User Experience Design Esentials-Adobe XD UI UX Design</h3>
-                                <span class="qualification-subtitle">Udemy</span>
-                            
-                                <div class="qualification-calender">
-                                    <i class="uil uil-calendar-alt"></i>
-                                    2023
-                                </div>
-                            </div>
-                        </div>
+                          </div>
+                    </div>
 
-                        <!-- C3 -->
-                        <div class="qualification-info">
-                            <div>
-                                <span class="qualification-point"></span>
-                                <span class="qualification-line"></span>
-                            </div>
-    
-                            <div>
-    
-                                <h3 class="qualification-title">Becomea FrontEnd Developer</h3>
-                                <span class="qualification-subtitle">Educative</span>
-                            
-                                <div class="qualification-calender">
-                                    <i class="uil uil-calendar-alt"></i>
-                                    2022
-                                </div>
-                            </div>
-                        </div>
+                </div>
+            </div>
+            
+        </section>
 
-                        <!-- c4 -->
+        <!-- PORTFOLIO -->
 
-                        <div class="qualification-info">
-                            <div>
-                                <span class="qualification-point"></span>
-                                <span class="qualification-line"></span>
-                            </div>
-    
-                            <div>
-    
-                                <h3 class="qualification-title"> Intermediate JavaScript :Building  Frontend Components </h3>
-                                <span class="qualification-subtitle">Udemy</span>
-                            
-                                <div class="qualification-calender">
-                                    <i class="uil uil-calendar-alt"></i>
-                                    2023
-                                </div>
-                            </div>
-                        </div>
+    <section class="portfolio section" id="portfolio">
+        <h2 class="section-title">Portfolio</h2>
+        <span class="section-subtitle">Most Recent work</span>
 
-                        <!-- C5 -->
+            <div class="portfolio-container container">
+                <div>
+                    <!-- P1 -->
+                    <div class="portfolio-content grid">
+                    <img src="images/memoir.png" alt="memoir" class="portfolio-img"/>
+                    
+                    <div class="portfolio-info">
+                        <h3 class="portfolio-title">Memoir</h3>
+                        <p class="portfolio-desc">My personal Blog Website</p>
+                    </div>
 
-                        <div class="qualification-info">
-                            <div>
-                                <span class="qualification-point"></span>
-                                <span class="qualification-line"></span>
-                            </div>
-    
-                            <div>
-    
-                                <h3 class="qualification-title">The Complete 2023 Web Development Bootcamp </h3>
-                                <span class="qualification-subtitle">Udemy</span>
-                            
-                                <div class="qualification-calender">
-                                    <i class="uil uil-calendar-alt"></i>
-                                    2023
-                                </div>
-                            </div>
-                        </div>
+                    <a href="#" class="button button button-small portfolio-button">
+                        See More
+                        <i class="uil uil-arrow-right button-icon"></i>
+                    </a>
+                   </div>
+                </div>
+                
+                    <!-- P2 -->
+               <div>
+                    <div class="portfolio-content grid">
+                    <img src="images/minder.png" alt="memoir" class="portfolio-img"/>
+                    
+                    <div class="portfolio-info">
+                        <h3 class="portfolio-title">Minder</h3>
+                        <p class="portfolio-desc">My little To-Do-list App</p>
+                    </div>
 
+                    <a href="#" class="button button button-small portfolio-button">
+                        See More
+                        <i class="uil uil-arrow-right button-icon"></i>
+                    </a>
+                    </div>
+             </div>
 
-                        <!-- C6 -->
+                 
+             <!-- p3 -->
 
-                        <div class="qualification-info">
-                            <div>
-                                <span class="qualification-point"></span>
-                                <span class="qualification-line"></span>
-                            </div>
-    
-                            <div>
-    
-                                <h3 class="qualification-title">The Complete 2023 Web Development Bootcamp </h3>
-                                <span class="qualification-subtitle">Udemy</span>
-                            
-                                <div class="qualification-calender">
-                                    <i class="uil uil-calendar-alt"></i>
-                                    2023
-                                </div>
-                            </div>
-                        </div>
+                 <div>
+                    <div class="portfolio-content grid">
+                    <img src="images/rimty cakery.png" alt="memoir" class="portfolio-img"/>
+                    
+                    <div class="portfolio-info">
+                        <h3 class="portfolio-title">Rimty Cakery</h3>
+                        <p class="portfolio-desc">Bakery Website designed on Adobe Xd .</p>
+                    </div>
 
+                    <a href="#" class="button button-flex button-small portfolio-button">
+                        See More
+                        <i class="uil uil-arrow-right button-icon"></i>
+                    </a>
                     </div>
 
                 </div>
 
             </div>
-        </section>
-
-    
+    </section>
     
     
     </main>

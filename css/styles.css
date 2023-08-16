@@ -448,7 +448,7 @@ img{
 
 
 /* Education Qualification */
-.qualification-options{
+.qualification-tabs{
     display: flex;
     justify-content: space-evenly;
     margin-bottom: var(--mb-2);
@@ -459,18 +459,26 @@ img{
     font-size: var(--h3);
     font-weight:var(--font-medium);
     cursor: pointer;
+    
+}
+
+.qualification-button:hover{
+    color: var(--first-color-2nd);
+    
 }
 
 .qualification-icon{
     font-size:28px ;
-    margin-right:4px ;
+    margin-right:var(--mb-0-25);
 
 }
 
-.qualification-info{
+.qualification-data{
     display: grid;
     grid-template-columns:1fr max-content 1fr ; /* middle e thaklo sob likha */
-    column-gap: 20px;     
+    column-gap: 20px; 
+    /* margin-bottom: 20px; */
+      
 }
 
 .qualification-title{
@@ -488,6 +496,7 @@ img{
 .qualification-calender{
     font-size: var(--smaller-font);
     color: var(--text-color-light);
+    
 }
 
 .qualification-point{
@@ -496,16 +505,51 @@ img{
     height: 13px;
     background-color: var(--first-color);
     border-radius: 50%;
+    
 
 }
 
-.qualification-line{
+/* .qualification-line{
     display: block;
     background-color: var(--first-color);
     width: 1px;
     height: 100%;
     transform: translate(6px,-10px);
 
+} */
+
+.qualification [data-content]{
+    display: none;
 }
 
+.qualification-active[data-content]{
+    display: block;
+}
 
+.qualification-button .qualification-active{
+    color: var(--first-color-lighter);
+}
+
+/* PORTFOLIO */
+.portfolio-container{
+    overflow: initial;
+}
+
+.portfolio-content {
+    padding:0 20px;
+}
+
+.portfolio-img{
+    width: 265px;
+    justify-self: center;
+    border-radius:5px ;
+}
+
+.portfolio-title{
+    font-size: var(--h3);
+    margin-bottom: var(--mb-0-5);
+}
+
+.portfolio-desc{
+    margin-bottom: var(--mb-0-75);
+}
