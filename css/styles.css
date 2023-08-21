@@ -530,35 +530,12 @@ img{
     color: var(--first-color-lighter);
 }
 
-/* PORTFOLIO */
 .portfolio-container{
-    overflow: initial;
+    align-items: center;
+    justify-content: center;
+    right: 25px;
 }
 
-.portfolio-content {
-    padding:0 20px;
-}
-
-.portfolio-img{
-    width: 265px;
-    justify-self: center;
-    border-radius:5px ;
-}
-
-.portfolio-title{
-    font-size: var(--h3);
-    margin-bottom: var(--mb-0-5);
-}
-
-.portfolio-desc{
-    margin-bottom: var(--mb-0-75);
-}
-
-.portfolio-button{
-    width: 150px;
-
-}
-
-.portfolio-button:hover .button-icon{
- transform: translateX(.25rem);
+.carousel-caption{
+    color: var(--first-color-2nd);
 }
