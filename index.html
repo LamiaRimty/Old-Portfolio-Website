@@ -10,15 +10,10 @@
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
 
     <title>🌷 Portfolio Website</title>
-  </div>   
+   
 
-            <div class="home-scroll">
-                <a href="#about" class="home-scroll-button button-flex">
-                    <i class="uil uil-mouse-alt home-scroll-mouse"></i>
-                    <span class="home-scroll-name">Scroll Down</span>
-                    <i class="uil uil-arrow-down home-scroll-arrow"></i>
-                </a>
-            </head>
+
+</head>
 <body>
 
       <!-- Header -->
@@ -26,11 +21,13 @@
         <nav class="nav container">
             <a href="#" class="nav-logo">
                 <!-- LJR -->
+               
                 <img src="images/rim logo.png" alt="rim-logo"/>
+                
             </a>
 
             <div class="nav-menu" id="nav-menu">
-                <ul class="nav-list-grid">
+                <ul class="nav-list grid">
                     <li class="nav-item">
 
                         <a href="#home" class="nav-link active-link">
@@ -49,7 +46,7 @@
                     <li>
                         <a href="#education" class="nav-link">
                             <i class="uil uil-graduation-cap nav-icon"></i>
-                            Education
+                            Qualification
                         </a>
                     </li>
 
@@ -68,17 +65,25 @@
                     </li>
 
                     <li>
-                        <a href="#contact" class="nav-link">
+                         <a href="#contact" class="nav-link">
                             <i class="uil uil-message nav-icon"></i>
                             Contact
                         </a>
                     </li>
-                    
+                  
                 </ul>
-
+                
                 <i class="uil uil-times nav-close" id="nav-close"></i>
             </div>
             <div class="nav-btns">
+                <!-- Theme Changing Button -->
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+            
+
+
+
+
+
                 <div class="nav-toggle" id="nav-toggle">
                     <i class="uil uil-apps"></i>
                 </div>
@@ -114,7 +119,7 @@
 
                    <div class="home-img">
                     <img class="home-cover-img" x="12" y="18"  src="images/BikerGirl.png"/>
-            </div>
+                  </div>
 
             <div class="home-info">
                 <h1 class="home-title">Hi I'm Rimty</h1>
@@ -128,6 +133,14 @@
              </div>
 
             </div>
+            <div class="home-scroll">
+                <a href="#about" class="home-scroll-button button-flex">
+                    <i class="uil uil-mouse-alt home-scroll-mouse"></i>
+                    <span class="home-scroll-name">Scroll Down</span>
+                    <i class="uil uil-arrow-down home-scroll-arrow"></i>
+                </a>
+            </div>
+
         </div>
       </section>
 
@@ -145,11 +158,14 @@
                </div>
                  
 
+               <div>
 
+               
               <div class="about-info">
                  <p class="about-desc">Hello! I’m Rimty. I am a computer science graduate interested
                 in UI/UX design and Front End Development. I am hard 
                 working and motivated to build this as my career.
+                 <br>
                  <br>
                 Beautiful Bangladesh is a small country in South Asia & that’s 
                 where I am from, but I’ve been living here in the Netherlands
@@ -158,12 +174,13 @@
               </div>
                
                 <div class="about-button">
-                <a href="pdf/Rimty-CV.pdf" class="button button-flex">
+                  <a href="pdf/Rimty-CV.pdf" class="button button-flex">
                     Download CV
                     <i class="uil uil-download-alt button-icon"></i> 
                    </a>
               
               </div>
+            </div>
 
         </div>  
       </section>
@@ -303,7 +320,7 @@
 
                 <div class="qualification-sections">
                     <!-- Education content  -->
-                    <div class="qualification-content " data-content id="education">
+                    <div class="qualification-content  grid" data-content id="education">
                         <!-- Q1 -->
                         <div class="qualification-data">
                             
@@ -350,7 +367,7 @@
 
 
                     <!-- course content  -->
-                    <div class="qualification-content qualification-active" data-content id="course">
+                    <div class="qualification-content qualification-active  grid" data-content id="course">
                                                 <!-- C1 -->
                         <div class="qualification-data">
                             <div>
@@ -493,7 +510,10 @@
             <h2 class="section-title">Portfolio</h2>
             <span class="section-subtitle">Most Recent work</span>
 
-            <div id="carouselExampleCaptions" class="carousel slide carousel-dark container portfolio-container grid" data-bs-ride="carousel">
+            <div id="carouselExampleCaptions" class="carousel slide carousel-dark container portfolio-container" data-bs-ride="carousel">
+                <div class="portfolio-content grid">
+
+                
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -501,24 +521,29 @@
                 </div>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="images/memoir.png" class="d-block w-100" alt="memoir.">
+                    <img src="images/memoir.png" class="d-block w-100 portfolio-img" alt="memoir.">
                     <div class="carousel-caption d-none d-md-block">
-                      <h5>Memoir</h5>
+                      <a href="https://github.com/LamiaRimty/Memoir"><h5>Memoir</h5></a>
                       <p>My personal Blog Website</p>
+
                     </div>
                   </div>
                   <div class="carousel-item">
-                    <img src="images/minder.png" class="d-block w-100" alt="minder">
+                    <img src="images/minder.png" class="d-block w-100 portfolio-img" alt="minder">
                     <div class="carousel-caption d-none d-md-block">
-                      <h5>Minder</h5>
+                      <a href="https://github.com/LamiaRimty/Minder"><h5>Minder</h5></a>
                       <p>My little To-Do-list App</p>
+
                     </div>
                   </div>
                   <div class="carousel-item">
-                    <img src="images/rimty cakery.png" class="d-block w-100" alt="rimty cakery">
+                    <img src="images/rimty cakery.png" class="d-block w-100 portfolio-img" alt="rimty cakery">
                     <div class="carousel-caption d-none d-md-block">
-                      <h5>Rimty Cakery</h5>
+                     <a href="https://drive.google.com/drive/u/0/home">
+                        <h5>Rimty Cakery</h5>
+                     </a>
                       <p>Bakery Website designed on Adobe Xd </p>
+
                     </div>
                   </div>
                 </div>
@@ -530,6 +555,8 @@
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
                 </button>
+
+            </div>
               </div>
 
 
@@ -539,7 +566,7 @@
           
 <section class="contact section" id="contact">
     <h2 class="section-title">Contact</h2>
-    <span class="section-subtitle">Gei in touch</span>
+    <span class="section-subtitle">Get in touch</span>
 
     <div class="contact-container container grid">
         <div>
@@ -617,10 +644,10 @@
 
 <footer class="footer">
     <div class="footer-back">
-        <div class="footer-container container-grid">
+        <div class="footer-container container grid">
             <div>
                 <h2 class="footer-title">Rimty</h2>
-                <span class="footer-subtitle">Web Developer</span>
+                <span class="footer-subtitle">UI/UX & Frontend Developer</span>
             </div>
 
             <ul class="footer-links">
@@ -648,10 +675,13 @@
         <p class="footer-copy"> &copy;LamiaRimty. All Right Reserved</p>
     </div>
 </footer>
-    <!-- Scroll top -->
-    <a href="#" class="scrollup" id="scroll-up'"> 
-        <i class="uil uil uil-arrow-up scrollup-icon"></i>
-    </a>
+
+                      <!-- Scroll top -->
+
+            <a href="#" class="scrollup" id="scroll-up">
+                <i class='uil uil-arrow-up scrolltop__icon'></i>
+            </a>
+
     <!-- Swiper Js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="js/swiper-bundle.min.js"></script>
