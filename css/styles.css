@@ -973,3 +973,28 @@ row-gap: 56px;
 
 
 }
+
+/* LARGER DEVICES */
+
+@media screen and (min-width:1024px) {
+    .header, .main, .footer-container{
+        padding: 0;
+    }
+
+    .nav-logo{
+        
+        margin-left: 10px;
+    }
+    
+    .home-img{
+        width: 320px;
+    }
+
+    .home-social{
+        transform: translateX(-96px);
+    }
+
+    .contact-form {
+        width: 460px;
+    }
+}
