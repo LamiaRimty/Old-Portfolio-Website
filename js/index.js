@@ -56,25 +56,25 @@ skillsHeader.forEach((e)=>{
 
 
 // Education-Qualification
-const tabs= document.querySelectorAll(["data-target"]),
-tabContents=document.querySelectorAll(["data-content"]);
+// const tabs= document.querySelectorAll(["data-target"]),
+// tabContents=document.querySelectorAll(["data-content"]);
 
-tabs.forEach(tab =>{
-    tab.addEventListener("click",()=>{
-        const target=document.querySelector(tab.dataset.target)
+// tabs.forEach(tab =>{
+//     tab.addEventListener("click",()=>{
+//         const target=document.querySelector(tab.dataset.target)
 
-        tabContents.forEach(tabContent =>{
-            tabContent.classList.remove("qualification-active")
-        })
+//         tabContents.forEach(tabContent =>{
+//             tabContent.classList.remove("qualification-active")
+//         })
 
-        target.classList.add("qualification-active")
+//         target.classList.add("qualification-active")
 
-        tabs.forEach(tab=>{
-            tab.classList.remove("qualification-active")
-        })
-        tab.classList.add("qualification-active")
-    })
-})
+//         tabs.forEach(tab=>{
+//             tab.classList.remove("qualification-active")
+//         })
+//         tab.classList.add("qualification-active")
+//     })
+// })
 
 // PORTFOLIO
 
@@ -182,3 +182,24 @@ themeButton.addEventListener('click', () => {
 //     var element = document.body;
 //     element.classList.toggle("dark-mode");
 //  }
+
+
+
+const scriptURL = "https://script.google.com/macros/s/AKfycbzg1JVicPJZe84CMSJft-7TrHGlNzii2rtw9YYHIKzkEMBmNceIwQ6Yaku3uAqQe289Zg/exec"
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => 
+        { msg.innerHTML= "Message sent successfully!" 
+        setTimeout(function(){
+            msg.innerHTML=" "
+        },5000)
+        form.reset()
+    
+    }
+        )
+      .catch(error => console.error('Error!', error.message))
+  })

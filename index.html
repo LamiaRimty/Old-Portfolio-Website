@@ -5,10 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/swiper-bundle.min.css">
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="css/styles.css">
+   
+      <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css" integrity="sha384-fZCoUih8XsaUZnNDOiLqnby1tMJ0sE7oBbNk2Xxf5x8Z4SvNQ9j83vFMa/erbVrV" crossorigin="anonymous"/>
 
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <title>🌷 Portfolio Website</title>
    
 
@@ -18,11 +24,13 @@
 
       <!-- Header -->
        <header class="header" id="header">
-        <nav class="nav container">
+   
+<nav class="navbar navbar-expand-lg">
+   
             <a href="#" class="nav-logo">
                 <!-- LJR -->
-               
-                <img src="images/rim logo.png" alt="rim-logo"/>
+               🌷RIMTY
+                <!-- <img src="images/Rimty logo.png" alt="rim-logo"/> -->
                 
             </a>
 
@@ -36,35 +44,35 @@
                         </a>
                     </li>
 
-                    <li>
+                    <li class="nav-item">
                         <a href="#about" class="nav-link">
                             <i class="uil uil-user nav-icon"></i>
                             About
                         </a>
                     </li>
 
-                    <li>
+                    <li class="nav-item">
                         <a href="#education" class="nav-link">
                             <i class="uil uil-graduation-cap nav-icon"></i>
                             Qualification
                         </a>
                     </li>
 
-                    <li>
+                    <li class="nav-item">
                         <a href="#skill" class="nav-link">
                             <i class="uil uil-arrow nav-icon"></i>
                             Skill
                         </a>
                     </li>
 
-                    <li>
+                    <li class="nav-item">
                         <a href="#portfolio" class="nav-link">
                             <i class="uil uil-scenery nav-icon"></i>
                             Portfolio
                         </a>
                     </li>
 
-                    <li>
+                    <li class="nav-item">
                          <a href="#contact" class="nav-link">
                             <i class="uil uil-message nav-icon"></i>
                             Contact
@@ -75,6 +83,7 @@
                 
                 <i class="uil uil-times nav-close" id="nav-close"></i>
             </div>
+
             <div class="nav-btns">
                 <!-- Theme Changing Button -->
                 <i class="uil uil-moon change-theme" id="theme-button"></i>
@@ -88,15 +97,16 @@
                     <i class="uil uil-apps"></i>
                 </div>
             </div>
-
+        </div>
         </nav>
+
        </header>
 
       <!-- Main -->
     <main class="main">
         <!-- HOME -->
       <section class="home section" id="home">
-        <div class="home-container container grid">
+        <div class="container col-xxl-8 px-4 py-4">
             
             <div class="home-content grid">
 
@@ -117,81 +127,41 @@
                  
                    </div>  
 
-                   <div class="home-img">
+                   <div class="home-img animate__animated animate__zoomInDown  animate__delay-1s">
                     <img class="home-cover-img" x="12" y="18"  src="images/BikerGirl.png"/>
                   </div>
 
             <div class="home-info">
-                <h1 class="home-title">Hi I'm Rimty</h1>
-                <h3 class="home-subtitle">Frontend Developer</h3>
-                <p class="home-desc">Interested in UI/UX Design & Web Development</p>
+                <h1 class="home-title animate__animated animate__rollIn">Hi, I'm Rimty</h1>
+                <h3 class="home-subtitle animate__animated animate__backInRight">Frontend Developer</h3>
+                <p class="home-desc animate__animated animate__backInRight">Interested in UI/UX Design & Web Development</p>
  
-                <a href="#contact" class="button button-flex">
-                 Contact
-                 <i class="uil uil-message button-icon"></i>
+                <a href="#contact" class="button button-flex animate__animated animate__backInUp animate__delay-1s">
+                   Contact Me
+                   <i class="uil uil-message button-icon"></i>
                 </a>
-             </div>
+            </div>
 
             </div>
-            <div class="home-scroll">
-                <a href="#about" class="home-scroll-button button-flex">
-                    <i class="uil uil-mouse-alt home-scroll-mouse"></i>
-                    <span class="home-scroll-name">Scroll Down</span>
-                    <i class="uil uil-arrow-down home-scroll-arrow"></i>
-                </a>
-            </div>
+                  <div class="home-scroll">
+                      <a href="#about" class="home-scroll-button button-flex">
+                        <i class="uil uil-mouse-alt home-scroll-mouse"></i>
+                        <span class="home-scroll-name">Scroll Down</span>
+                       <i class="uil uil-arrow-down home-scroll-arrow"></i>
+                      </a>
+                  </div>
 
         </div>
       </section>
 
-
-      <!-- About -->
-      <section class="about section" id="about">
-                
-                    <h2 class="section-title">About Me</h2>
-                    <span class="section-subtitle">My Introduction</span>
-            
-  
-            <div class="about-container container grid">
-               <div class="about-img">
-                <img alt="rimty" src="images/Rimty.jpg"/>
-               </div>
-                 
-
-               <div>
-
-               
-              <div class="about-info">
-                 <p class="about-desc">Hello! I’m Rimty. I am a computer science graduate interested
-                in UI/UX design and Front End Development. I am hard 
-                working and motivated to build this as my career.
-                 <br>
-                 <br>
-                Beautiful Bangladesh is a small country in South Asia & that’s 
-                where I am from, but I’ve been living here in the Netherlands
-                since March 2022. 
-                </p>
-              </div>
-               
-                <div class="about-button">
-                  <a href="pdf/Rimty-CV.pdf" class="button button-flex">
-                    Download CV
-                    <i class="uil uil-download-alt button-icon"></i> 
-                   </a>
-              
-              </div>
-            </div>
-
-        </div>  
-      </section>
      
       <!-- Skills -->
-      <section class="skills section" id="skills">
+      <section class="skills section animate__animated animate__fadeInDown " id="skill">
             <h2 class="section-title">Skills</h2>
             <span class="section-subtitle">My Technical Levels</span>
       
-        <div class="skills-container container-grid">
-            <div class="">
+        <div class="container col-xxl-8 px-4 py-4">
+            <div class="skills-body">
 
                 <!-- Skill 1 -->
 
@@ -304,25 +274,25 @@
             <h2 class="section-title">Qualification</h2>
             <span class="section-subtitle">My Personal Journey</span>
 
-            <div class="qualification-container container">
-                <div class="qualification-tabs">
-                    <div class="qualification-button button-flex " data-target="#education">
-                        <i class="uil uil-graduation-cap qualification-icon"></i>
-                        Education
-                    </div>
+            <div class="container col-xxl-8 px-4 py-4"">
+                <!-- <div class="qualification-tabs">
 
-                    <div class="qualification-button button-flex qualification-active" data-target="#course">
-                        <i class="uil uil-file-landscape-alt qualification-icon"></i>
-                        Course
-                    </div>
 
-                </div>
+
+
+                </div> -->
 
                 <div class="qualification-sections">
+                
+                <div id="education" class="animate__animated animate__slideInLeft animate__delay-10s">
                     <!-- Education content  -->
-                    <div class="qualification-content  grid" data-content id="education">
+                    <div class="qualification-content  grid " >
+                        <div class="qualification-button button-flex ">
+                            <i class="uil uil-graduation-cap qualification-icon"></i>
+                            Education
+                        </div>
                         <!-- Q1 -->
-                        <div class="qualification-data">
+                        <div class="qualification-data" id="education">
                             
                                 <div>
                                     <span class="qualification-point"></span>
@@ -342,7 +312,7 @@
 
 
                         <!-- Q2 -->
-                        <div class="qualification-data">
+                        <div class="qualification-data" id="education">
                            
                                 
                             <div>
@@ -363,11 +333,16 @@
                         </div>
 
                     </div>
-                   
+                </div>
 
 
+                <div id="course" class="animate__animated animate__slideInRight animate__delay-10s">
                     <!-- course content  -->
-                    <div class="qualification-content qualification-active  grid" data-content id="course">
+                    <div class="qualification-content  grid" >
+                        <div class="qualification-button button-flex">
+                            <i class="uil uil-file-landscape-alt qualification-icon"></i>
+                            Course
+                        </div>
                                                 <!-- C1 -->
                         <div class="qualification-data">
                             <div>
@@ -376,7 +351,7 @@
                              </div>
                              
 
-                        <div>
+                         <div>
             
                              <h3 class="qualification-title">The Complete 2023 Web Development Bootcamp </h3>
                             <span class="qualification-subtitle">Udemy</span>
@@ -385,13 +360,13 @@
                                   <i class="uil uil-calendar-alt"></i>
                                    2023
                                 </div>
-                        </div>
+                         </div>
 
                         </div>
                         
                                                 <!-- C2 -->
                         
-                        <div class="qualification-data">
+                           <div class="qualification-data">
                                         
                           <div>
                             <span class="qualification-point"></span>
@@ -410,10 +385,10 @@
 
                            </div>
 
-                        </div>
+                           </div>
                         
                           <!-- C3 -->
-                        <div class="qualification-data">
+                           <div class="qualification-data">
                                 <div>
                                     <span class="qualification-point"></span>
                                     <span class="qualification-line"></span>
@@ -429,11 +404,11 @@
                                              2022
                                         </div>
                                     </div>
-                        </div>
+                           </div>
                         
                                                 <!-- c4 -->
                         
-                         <div class="qualification-data">
+                           <div class="qualification-data">
                                 <div>
                                     <span class="qualification-point"></span>
                                     <span class="qualification-line"></span>
@@ -449,11 +424,11 @@
                                              2022
                                     </div>
                                 </div>
-                        </div>
+                           </div>
                         
                                                 <!-- C5 -->
                         
-                        <div class="qualification-data">
+                          <div class="qualification-data">
                                 <div>
                                         <span class="qualification-point"></span>
                                          <span class="qualification-line"></span>
@@ -471,7 +446,7 @@
 
                                 </div>
 
-                         </div>
+                           </div>
                         
                         
                                                 <!-- C6 -->
@@ -495,11 +470,16 @@
 
                             </div>  
 
-                          </div>
-                    </div>
+                     
+                       
+                        </div>  <!-- Course content -->
 
-                </div>
+
+                 </div>
+
+                 </div>
             </div>
+           
             
         </section>
 
@@ -510,7 +490,7 @@
             <h2 class="section-title">Portfolio</h2>
             <span class="section-subtitle">Most Recent work</span>
 
-            <div id="carouselExampleCaptions" class="carousel slide carousel-dark container portfolio-container" data-bs-ride="carousel">
+            <div id="carouselExampleCaptions" class="carousel slide carousel-dark container col-xxl-8 px-4 py-4" data-bs-ride="carousel">
                 <div class="portfolio-content grid">
 
                 
@@ -561,20 +541,66 @@
 
 
         </section>  
-            
+       
+        
+
+      <!-- About -->
+      <section class="about section" id="about">
+                
+        <h2 class="section-title">About Me</h2>
+        <span class="section-subtitle">My Introduction</span>
+
+
+<div class="container col-xxl-8 px-4 py-4">
+    <div class="about-img animate__animated animate__slideInLeft animate__delay-4s">
+        <img
+          id="rimty"
+          class="d-block mx-auto mb-4"
+          src="./images/Rimty.jpg"
+          alt="rimty"
+          width="500"
+          height="700"
+        />
+      </div>
+
+   <div>
+
+   
+  <div class="about-info animate__animated animate__slideInRight animate__delay-4s">
+     <p class="about-desc">Hello! I’m Rimty. I am a <em>Computer Science</em> graduate interested
+    in UI/UX design and Front End Development. I am hard 
+    working and motivated to build this as my career.
+     <br>
+     <br>
+    Beautiful Bangladesh is a small country in South Asia & that’s 
+    where I am from.I now live in the Netherlands.I initially came here in 2022. 
+    </p>
+  </div>
+   
+    <div class="about-button animate__animated animate__slideInUp">
+      <a href="pdf/Rimty-CV.pdf" class="button button-flex">
+        Download CV
+        <i class="uil uil-download-alt button-icon"></i> 
+       </a>
+  
+  </div>
+</div>
+
+</div>  
+</section>
         <!-- CONTACT -->
           
 <section class="contact section" id="contact">
     <h2 class="section-title">Contact</h2>
     <span class="section-subtitle">Get in touch</span>
 
-    <div class="contact-container container grid">
-        <div>
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="animate__animated animate__slideInLeft">
           <!-- INFO 1 -->
           <div class="contact-info">
             <i class="uil uil-phone contact-icon"></i>
               <div>
-                <h3 class="contact-title">Phone</h3>
+                <h2 class="contact-title">Phone</h2>
                 <span class="contact-subtitle">+31 0626344867</span>
               </div>
            </div>
@@ -586,8 +612,8 @@
                 <i class="uil uil-envelope contact-icon"></i>
         
                     <div>
-                        <h3 class="contact-title">Email</h3>
-                        <span class="contact-subtitle">ljrimty@outlook.com</span>
+                        <h2 class="contact-title">Email</h2>
+                        <span class="contact-subtitle"><a href="mailto:ljrimty@outlook.com">ljrimty@outlook.com</a></span>
                     </div>
             </div>
         
@@ -596,7 +622,7 @@
                 <i class="uil uil-location-point contact-icon"></i>
 
                <div>
-                  <h3 class="contact-title">Location</h3>
+                  <h2 class="contact-title">Location</h2>
                   <span class="contact-subtitle">Almere , Netherlands</span>
               </div>
             </div>
@@ -605,34 +631,38 @@
    
         
 
-        <form action=" " class="contact-form grid">
+        <form name="submit-to-google-sheet" class="contact-form grid animate__animated animate__slideInRight">
          <div class="contact-inputs grid">
             <div class="contact-content">
                 <label for="name" class="contact-label">Your Name</label>
-                <input type="text" id="name" name="name"class="contact-input">   
+                <input type="text" id="name" name="Name"class="contact-input">   
             </div>
 
             <div class="contact-content">
                 <label for="email" class="contact-label">Your email</label> 
-                <input type="text" id="email" name="email" class="contact-input">
+                <input type="text" id="email" name="Email" class="contact-input">
                 
             </div>
          </div>
 
          <div class="contact-content">
             <label for="message" class="contact-label">Your Message</label> 
-            <textarea type="text" id="message" name="message" cols="0" rows="7" class="contact-input"></textarea>    
+            <textarea type="text" id="message" name="Message" cols="0" rows="7" class="contact-input"></textarea>    
         </div>
 
-        <div>
-            <a href="#" class="button button-flex">
+        <div class="animate__animated animate__slideInUp">
+            <!-- <a href="#" type="submit" class="button button-flex">
                 Send
                 <i class="uil uil-message button-icon"></i>
-            </a>
+            </a> -->
+            <button type="submit" class="button button-flex animate__animated animate__slideInUp contact-button">Submit
+                <i class="uil uil-message button-icon"></i>
+            </button>
         </div>
 
 
         </form> 
+        <!-- <span id="msg">Hello!</span> -->
    
 
    </div>
@@ -642,10 +672,10 @@
    
 <!-- Footer -->
 
-<footer class="footer">
+<!-- <footer class="footer">
     <div class="footer-back">
         <div class="footer-container container grid">
-            <div>
+            <div class="animate__animated animate__fadeInDown">
                 <h2 class="footer-title">Rimty</h2>
                 <span class="footer-subtitle">UI/UX & Frontend Developer</span>
             </div>
@@ -671,11 +701,64 @@
             </div>
 
         </div>
+        <div class="animate__animated animate__fadeInUp">
+            <p class="footer-copy1"> &copy;2023LamiaRimty. All Right Reserved</p>
+            <p class="footer-copy2">Made with ❤️ By Rimty</p>
+        </div>
 
-        <p class="footer-copy"> &copy;LamiaRimty. All Right Reserved</p>
     </div>
-</footer>
+</footer> -->
 
+<section>
+    <div class="container col-xxl-8 px-4 py-5">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-bottom">
+        <div class="col mb-3">
+          <a
+            class="navbar-brand d-flex align-items-center mb-3 link-body-emphasis text-decoration-none"
+            href="/#"
+          >
+
+            <span class="footer-brand">🌷RIMTY</span>
+          </a>
+          <p class="footer-intro">UI/UX & Frontend Developer</p>
+        </div>
+
+        <div class="nav col-md-4 justify-content-end">
+          <ul class="list-unstyled d-flex " id="footer-links">
+            <li class="ms-3">
+              <a
+                class="footer-link text-body-secondary"
+                href="https://www.facebook.com/L.J.Rimty"
+              >facebook
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+            </li>
+            <li class="ms-3">
+              <a
+                class="footer-link text-body-secondary"
+                href="https://www.instagram.com/ik_rimty?fbclid=IwAR16dk9evu7OMdz1STbLtI2xAwTaPAo6KdBDXHD9kek9bcdvgtgEK9f7qIw"
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </li>
+            <li class="ms-3">
+              <a
+                class="footer-link text-body-secondary"
+                href="https://www.youtube.com/channel/UCQ2ahPn5cdvouccPDnT3oGg"
+              >
+                <i class="fa-brands fa-youtube"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+      <div class="animate__animated animate__fadeInUp">
+        <p class="text-center text-body-secondary footer-copy">
+          Made with ❤️ By Rimty &copy; 2023
+        </p>
+      </div>
+    </div>
+  </section>
                       <!-- Scroll top -->
 
             <a href="#" class="scrollup" id="scroll-up">
@@ -683,6 +766,28 @@
             </a>
 
     <!-- Swiper Js -->
+
+    <!-- <script>
+const scriptURL = "https://script.google.com/macros/s/AKfycbzg1JVicPJZe84CMSJft-7TrHGlNzii2rtw9YYHIKzkEMBmNceIwQ6Yaku3uAqQe289Zg/exec"
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => 
+        { msg.innerHTML= "Message sent successfully!" 
+        setTimeout(function(){
+            msg.innerHTML=" "
+        },5000)
+        form.reset()
+    
+    }
+        )
+      .catch(error => console.error('Error!', error.message))
+  })
+
+    </script> -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/index.js"></script> 
